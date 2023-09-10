@@ -5,7 +5,7 @@ wip for QuarkNet's Cosmic Ray Muon Detector data processing
 ## Steps for processing data:
 ### I: Extracting data from DAQ file
 1) Install Cygwin, XLaunch, and Octave on computer.
-2) Get three files: extractDAQ.C, extractDAQ.sh, and ShowerXX.txt
+2) Get three files: extractDAQ.c, extractDAQ.sh, and ShowerXX.txt
 3) Using Cygwin, navigate to data folder. 
 4) Run the command "./extractDAQ.sh [folder/filename]", 
 5) The new file [filename].dmp is now created in the folder as determined. 
